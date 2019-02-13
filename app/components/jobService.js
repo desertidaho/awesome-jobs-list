@@ -13,7 +13,7 @@ let _state = {
     new Job({
       title: 'Realtor',
       description: 'Looking for an experienced realtor to join our team. Must have extensive commercial sales and service experience.',
-      salary: 'Commision',
+      salary: 'Commission',
       img: '<i class="fas fa-home img-fluid fa-5x mt-3"></i>',
       url: 'https://jobs.lever.co/marcusmillichap/e96710e9-a856-4efc-b46d-4d5dc7f5d3ab?lever-source=Indeed'
     }),

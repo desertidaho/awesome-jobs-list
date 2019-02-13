@@ -17,25 +17,26 @@
   <header class="container-fluid">
     <div class="row mt-5">
       <div class="col text-center">
-        <h1>Greg's List</h1>
+        <h1>Awesome Jobs List <i class="fas fa-check-circle ml-3 text-success"></i></h1>
+
       </div>
     </div>
   </header>
 
   <div class="row mt-4">
-    <div class="col-8 offset-2 d-flex justify-conetent-center">
+    <div class="col text-center">
       <form onsubmit="app.controllers.jobController.addJob(event)">
-        <input type="text" name="title" placeholder="Title" required>
-        <input type="text" name="description" placeholder="Description">
-        <input type="number" name="salary" placeholder="Salary" required>
-        <input type="url" name="img" placeholder="Image" required>
-        <button type="submit">Submit</button>
+        <input class="my-form" type="text" name="title" placeholder="  Title..." required>
+        <input class="my-form" type="text" name="description" placeholder="  Description...">
+        <input class="my-form" type="number" name="salary" placeholder="  Salary..." required>
+        <input class="my-form" type="url" name="img" placeholder="  Image...">
+        <button class="btn-outline-dark my-form shadow-sm" type="submit">Add Job</button>
       </form>
     </div>
   </div>
 
-  <main class="row mt-5" id="available-jobs">
-
+  <!-- insert cards via js -->
+  <main class="row d-flex justify-content-center" id="available-jobs">
   </main>
 
   <script type="module" src="app/main.js"></script>

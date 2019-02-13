@@ -12,7 +12,6 @@ function draw() {
   document.getElementById('available-jobs').innerHTML = template
 }
 
-
 //Public
 export default class JobController {
   constructor() {
@@ -36,4 +35,5 @@ export default class JobController {
   deleteJob(id) {
     _js.deleteJob(id)
   }
+
 }

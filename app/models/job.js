@@ -1,4 +1,5 @@
 let id = 1
+
 export default class Job {
   constructor(data) {
     this.id = id
@@ -20,5 +21,4 @@ export default class Job {
             </div>
         </div>`
   }
-
 }

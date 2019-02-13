@@ -6,20 +6,20 @@ let _state = {
     new Job({
       title: 'Junior Software Developer',
       description: 'Looking for a recent graduate of Boise Codeworks to join our growing team of professional software developers. Candidates must have entry level JavaScript skills.',
-      salary: `$45,000/year`,
-      img: `<i class="fas fa-laptop"></i>`
+      salary: '$45,000/year',
+      img: '<i class="fas fa-laptop"></i>'
     }),
     new Job({
       title: 'Realtor',
       description: 'Looking for an experienced realtor to join our team. Must have extensive commercial sales and service experience.',
       salary: 'Commision',
-      img: `<i class="fas fa-home"></i>`
+      img: '<i class="fas fa-home"></i>'
     }),
     new Job({
       title: 'Commercial Helicopter Pilot',
       description: 'Looking for a utility pilot for the upcoming Alaska field season. Must have precision long-line skills.',
-      salary: `$400/day`,
-      img: `<i class="fas fa-helicopter"></i>`
+      salary: '$400/day',
+      img: '<i class="fas fa-helicopter"></i>'
     })
 
   ]

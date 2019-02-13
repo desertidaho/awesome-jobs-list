@@ -8,4 +8,5 @@ class App {
   }
 }
 
+// @ts-nocheck
 window.app = new App()
